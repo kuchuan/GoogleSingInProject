@@ -8,5 +8,7 @@ target 'GoogleSinginProject' do
   # Pods for GoogleSinginProject
 
 	pod 'Firebase/Analytics'
+  pod 'Firebase/Auth'
+  pod 'GoogleSignIn'
 
 end

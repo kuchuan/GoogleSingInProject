@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -80,7 +80,6 @@
 				6AA715C48DECC40052F1B77F /* Pods-GoogleSinginProject.debug.xcconfig */,
 				F3B293B0669248AB939D4BD5 /* Pods-GoogleSinginProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,6 +103,7 @@
 				483724DE22FA6E2E00560C10 /* Frameworks */,
 				483724DF22FA6E2E00560C10 /* Resources */,
 				AB74D045626E0CC77A23F548 /* [CP] Embed Pods Frameworks */,
+				31E5054ABA5BC919AF4CA743 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -162,6 +162,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		31E5054ABA5BC919AF4CA743 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleSinginProject/Pods-GoogleSinginProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoogleSinginProject/Pods-GoogleSinginProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoogleSinginProject/Pods-GoogleSinginProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7AC3110D1BD5210C564B5AF4 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
