@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23E44C7F771A64BC8F61D0DE /* Pods_GoogleSinginProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB1B8405FC28A93120DAEA5B /* Pods_GoogleSinginProject.framework */; };
+		4834D55B22FBC8A600AEA180 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4834D55A22FBC8A600AEA180 /* ProfileViewController.swift */; };
 		483724E522FA6E2E00560C10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483724E422FA6E2E00560C10 /* AppDelegate.swift */; };
 		483724E722FA6E2E00560C10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483724E622FA6E2E00560C10 /* ViewController.swift */; };
 		483724EA22FA6E2E00560C10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 483724E822FA6E2E00560C10 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4834D55A22FBC8A600AEA180 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		483724E122FA6E2E00560C10 /* GoogleSinginProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleSinginProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		483724E422FA6E2E00560C10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		483724E622FA6E2E00560C10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				483724ED22FA6E2F00560C10 /* LaunchScreen.storyboard */,
 				483724F022FA6E2F00560C10 /* Info.plist */,
 				483724F622FA717A00560C10 /* GoogleService-Info.plist */,
+				4834D55A22FBC8A600AEA180 /* ProfileViewController.swift */,
 			);
 			path = GoogleSinginProject;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4834D55B22FBC8A600AEA180 /* ProfileViewController.swift in Sources */,
 				483724E722FA6E2E00560C10 /* ViewController.swift in Sources */,
 				483724E522FA6E2E00560C10 /* AppDelegate.swift in Sources */,
 			);
