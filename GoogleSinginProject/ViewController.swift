@@ -48,6 +48,7 @@ extension ViewController: GIDSignInDelegate, GIDSignInUIDelegate {
                 print(error.localizedDescription)
             } else {
                 print("成功")
+                self.performSegue(withIdentifier: "toHome", sender: nil)
             }
         }
     }
